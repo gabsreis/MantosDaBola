@@ -1,0 +1,94 @@
+body{
+    background-color: #E3E1E1;
+    padding: 0px;
+    margin-top: 0px;
+    margin: 0px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#cabecalho{
+    background-color: #2D7280;
+    height: 50px;
+    color: #E3E1E1;
+    margin: 0px;
+}
+
+#logo{
+    display:inline-flex;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+#pesquisa{
+    display:inline-block;
+    background-color: #E3E1E1;
+    border-radius: 25px;
+    width: 820px;
+    margin-left: 300px ;
+    margin-top: 12px;
+    position: absolute;
+    border: none;
+    outline: none;
+}
+
+.categ{
+    display: inline-block;
+    margin-top: 15px;
+    position: absolute;
+    text-decoration: none;
+    color: #E3E1E1;
+}
+
+#br{
+    margin-left: 1150px;
+    color: rgb(72, 255, 0);
+}
+
+#int{
+    margin-left: 1250px;
+}
+
+#sel{
+    margin-left: 1420px;
+}
+
+#cart{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 1740px;
+}
+
+#user{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 1600px;
+}
+
+#prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+    margin-left: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#prod h1{
+    margin-right: 70px;
+}
+
+#rodape a{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#rodape{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #2D7280;
+    font-size: 32px;
+
+}

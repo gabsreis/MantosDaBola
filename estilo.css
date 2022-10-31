@@ -1,0 +1,157 @@
+body{
+    background-color: #E3E1E1;
+    padding: 0px;
+    margin-top: 0px;
+    margin: 0px;
+    font-family: 'RocknRoll One', sans-serif;
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 0.2fr 0.6fr 0.1fr;
+}
+
+#cabecalho{
+    background-color: #2D7280;
+    height: 50px;
+    color: #E3E1E1;
+    margin: 0px;
+}
+
+#logo{
+    display:inline-flex;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+#pesquisa{
+    display:inline-block;
+    background-color: #E3E1E1;
+    border-radius: 25px;
+    width: 820px;
+    margin-left: 300px ;
+    margin-top: 12px;
+    position: absolute;
+    border: none;
+    outline: none;
+}
+
+.categ{
+    display: inline-block;
+    margin-top: 15px;
+    position: absolute;
+    text-decoration: none;
+    color: #E3E1E1;
+}
+
+#br{
+    margin-left: 1150px;
+}
+
+#int{
+    margin-left: 1250px;
+}
+
+#sel{
+    margin-left: 1420px;
+}
+
+#cart{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 1740px;
+}
+
+#user{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 1600px;
+}
+
+#bannerimg{
+    margin-top: 20px;
+}
+
+#banner{
+    height: 800px;
+    text-align: center;
+}
+
+#maisvendidos{
+    height: 50px;  
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+#cmv{
+    height: 480px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+#cmv h1{
+    margin-right: 72px;
+}
+
+#fotos{
+    text-align: center;
+    position: absolute;
+    z-index: -1;
+    left: 200px;
+    top: 1700px;
+    opacity: 0.65;
+}
+
+#ney{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#topicos{
+    margin-top: 300px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 48px;
+    position: relative;
+    bottom: 75px;
+    color: #0500FF;
+    text-decoration: none;
+}
+
+#topbr{
+    position: relative;
+    left: 120px;
+    color: #0500FF;
+    text-decoration: none;
+}
+
+#topmun{
+    color: #0500FF;
+    text-decoration: none;
+}
+
+#topsele{
+    position: relative;
+    right: 100px;
+}
+
+#rodape a{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#rodape{
+    margin-top: 353px;
+    text-align: center;
+    background-color: #2D7280;
+    font-size: 32px;
+
+}
